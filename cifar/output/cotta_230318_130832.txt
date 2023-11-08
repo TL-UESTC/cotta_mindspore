@@ -1,0 +1,66 @@
+[23/03/18 13:08:32] [conf.py:  213]: PyTorch Version: torch=1.11.0+cu102, cuda=10.2, cudnn=7605
+[23/03/18 13:08:32] [conf.py:  215]: BN:
+  EPS: 1e-05
+  MOM: 0.1
+CKPT_DIR: ./ckpt
+CORRUPTION:
+  DATASET: cifar10
+  NUM_EX: 10000
+  SEVERITY: [5]
+  TYPE: ['gaussian_noise', 'shot_noise', 'impulse_noise', 'defocus_blur', 'glass_blur', 'motion_blur', 'zoom_blur', 'snow', 'frost', 'fog', 'brightness', 'contrast', 'elastic_transform', 'pixelate', 'jpeg_compression']
+CUDNN:
+  BENCHMARK: True
+DATA_DIR: ./data
+DESC: 
+LOG_DEST: cotta_230318_130832.txt
+LOG_TIME: 230318_130832
+MODEL:
+  ADAPTATION: cotta
+  ARCH: Standard
+  EPISODIC: False
+OPTIM:
+  AP: 0.92
+  BETA: 0.9
+  DAMPENING: 0.0
+  LR: 0.001
+  METHOD: Adam
+  MOMENTUM: 0.9
+  MT: 0.999
+  NESTEROV: True
+  RST: 0.01
+  STEPS: 1
+  WD: 0.0
+RNG_SEED: 1
+SAVE_DIR: ./output
+TEST:
+  BATCH_SIZE: 200
+[23/03/18 13:08:36] [cifar10c.py:   48]: not resetting model
+[23/03/18 13:09:09] [cifar10c.py:   58]: error % [gaussian_noise5]: 28.07%
+[23/03/18 13:09:09] [cifar10c.py:   50]: not resetting model
+[23/03/18 13:09:41] [cifar10c.py:   58]: error % [shot_noise5]: 26.12%
+[23/03/18 13:09:41] [cifar10c.py:   50]: not resetting model
+[23/03/18 13:10:14] [cifar10c.py:   58]: error % [impulse_noise5]: 36.27%
+[23/03/18 13:10:14] [cifar10c.py:   50]: not resetting model
+[23/03/18 13:10:46] [cifar10c.py:   58]: error % [defocus_blur5]: 12.85%
+[23/03/18 13:10:46] [cifar10c.py:   50]: not resetting model
+[23/03/18 13:11:18] [cifar10c.py:   58]: error % [glass_blur5]: 35.29%
+[23/03/18 13:11:18] [cifar10c.py:   50]: not resetting model
+[23/03/18 13:11:50] [cifar10c.py:   58]: error % [motion_blur5]: 14.19%
+[23/03/18 13:11:50] [cifar10c.py:   50]: not resetting model
+[23/03/18 13:12:23] [cifar10c.py:   58]: error % [zoom_blur5]: 12.09%
+[23/03/18 13:12:23] [cifar10c.py:   50]: not resetting model
+[23/03/18 13:12:55] [cifar10c.py:   58]: error % [snow5]: 17.27%
+[23/03/18 13:12:55] [cifar10c.py:   50]: not resetting model
+[23/03/18 13:13:27] [cifar10c.py:   58]: error % [frost5]: 17.38%
+[23/03/18 13:13:27] [cifar10c.py:   50]: not resetting model
+[23/03/18 13:13:59] [cifar10c.py:   58]: error % [fog5]: 15.29%
+[23/03/18 13:13:59] [cifar10c.py:   50]: not resetting model
+[23/03/18 13:14:32] [cifar10c.py:   58]: error % [brightness5]: 8.37%
+[23/03/18 13:14:32] [cifar10c.py:   50]: not resetting model
+[23/03/18 13:15:04] [cifar10c.py:   58]: error % [contrast5]: 12.67%
+[23/03/18 13:15:04] [cifar10c.py:   50]: not resetting model
+[23/03/18 13:15:36] [cifar10c.py:   58]: error % [elastic_transform5]: 23.77%
+[23/03/18 13:15:36] [cifar10c.py:   50]: not resetting model
+[23/03/18 13:16:08] [cifar10c.py:   58]: error % [pixelate5]: 19.66%
+[23/03/18 13:16:08] [cifar10c.py:   50]: not resetting model
+[23/03/18 13:16:40] [cifar10c.py:   58]: error % [jpeg_compression5]: 27.29%

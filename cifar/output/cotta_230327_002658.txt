@@ -1,0 +1,1 @@
+[23/03/27 00:26:58] [conf.py:  213]: PyTorch Version: torch=1.11.0+cu102, cuda=10.2, cudnn=7605
