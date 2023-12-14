@@ -1,6 +1,5 @@
-# CoTTA: Continual Test-Time Adaptation
+# Noise-Robust Continual Test-Time Domain Adaptation
 
-> forked from [qinenergy/cotta](https://github.com/qinenergy/cotta)
-> Official code for [Continual Test-Time Domain Adaptation](https://arxiv.org/abs/2203.13591), published in CVPR 2022.
+> code for [Noise-Robust Continual Test-Time Domain Adaptation](https://dl.acm.org/doi/abs/10.1145/3581783.3612071), published in0the 31st ACM International Conference on Multimedia (ACM MM), 2023 Continual Test-Time Adaptation
 
 transplant from pytorch to mindspore
