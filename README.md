@@ -5,6 +5,8 @@
 ## migration
 mainly use the msadapter and raw mindspore apis to transplant, the details about migration: cotta-transplant-note.md.
 
+after the migration, the experiment results are the same as the resluts in the paper.
+
 ## Prerequisite 
  Please create and activate the following conda envrionment. To reproduce our results, please kindly create and use this environment. 
  ```bash 
