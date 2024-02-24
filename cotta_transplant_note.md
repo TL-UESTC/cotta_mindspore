@@ -9,9 +9,9 @@ source model运行结果，复现了论文结果，对应表格如下（列举�
 
 输出结果：
 
-<img title="" src="file:///C:/Users/Jayus/AppData/Roaming/marktext/images/2023-09-27-00-00-05-image.png" alt="" width="703">
+<img title="结果" src="result.png" alt="" width="703">
 
-[运行日志文件](http://www.jayus71.top/usr/uploads/2023/09/3778961841.txt)
+[运行日志文件](https://github.com/TL-UESTC/cotta_mindspore/blob/master/source_230926_230500.txt)
 
 # MSAdapter 简介
 
